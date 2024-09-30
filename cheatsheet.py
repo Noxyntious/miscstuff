@@ -53,3 +53,10 @@ elif (b == a):
 else:
     print("Podmínka není pravda.")
 # Pokud žádná z podmínek určených příkazy if nebo elif není pravda, Python spustí kód u příkazu else.
+
+# While loopy
+c = 1
+while (c == 1):
+    print("C se rovná 1.")
+# Příkaz while bude dokola běžet kód, pokud podmínka je pravdivá. Nikdy nepřestane, dokud program je zavřen tlačítkem X nebo Ctrl+C.
+
