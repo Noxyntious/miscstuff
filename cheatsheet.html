@@ -1,0 +1,55 @@
+<!-- Přístupné na https://nijika.dev/sheets.html -->
+
+<!-- Základní layout HTML dokumentu podle Emmetu -->
+
+<!-- komentář. text mezi znaky "<! --"" a "-- >"" nebude považován jako kód, ale text. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html> <!-- určí typ dokumentu. vždy "html" -->
+
+<html lang="en"> <!-- začátek HTML dokumentu. parametr lang určí jazyk. používá Set 1 z ISO language code tablu. https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes -->
+
+<head> <!-- záhlaví. obvykle obsahuje metadata dokumentu -->
+
+<meta charset="UTF-8"> <!-- určuje enkódování textu dokumentu -->
+
+<title> </title> <!-- určuje jméno dokumentu v prohlížeči -->
+
+<link rel="stylesheet" href="style.css" class="css"> <!-- určuje lokaci CSS stylesheetu (style.css) -->
+
+<body> <!-- začátek "těla" dokumentu. vše v tagu <body> bude ukázano uživateli -->
+
+<!-- Tagy se zavírají znakem / -->
+</body>
+</head>
+</html>
+
+<!-- Tagy pracující z textem 
+Poznámka: k vypsání textu není nutný použít žádný tag, stačí napsat text a uživateli se ukáže
+tohle ale není dobrý nápad, protože není možné pak vůbec text stylovat 
+-->
+
+<p>Text v odstavci</p> <!-- <p> - odstavec. nejzákladnější způsob psaní textu -->
+<b>Tučný text</b> <!-- <b> - tučný text. všechen text v tagu <b> se vypíše tučně -->
+<i>Kurzíva</i> <!-- Text v kurzívě. všechen text v tagu <i> se vypíše v kurzívě -->
+<u>Podtržený text</u> <!-- Podtržený text. všechen text v tagu <u> bude podtržený -->
+
+<!-- Tagy pro interakci s uživatelem -->
+
+<a href="google.com">Google</a> <!-- <a> - odkaz. parametr "href" určuje kam odkaz vede. odkaz může být externí (href="https://google.com")-->
+<a href="index.html">Interní odkaz</a> <!-- nebo interní. odkaz taky může ukazovat na jiný element podle parametru ID (One Page Design) -->
+
+<h1 id="nadpis">Nadpis</h1>
+<a href="#nadpis">Odkaz na nadpis</a> <!-- na jiný element ve stejném dokumentu se odkazuje znakem #, a pak ID elementu -->
