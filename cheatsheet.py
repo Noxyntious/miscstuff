@@ -1,3 +1,5 @@
+# Přístupné na - nijika.dev/sheets.html
+
 # komentář. text za znakem # nebude považován jako kód, ale text.
 
 promennaStr = "text" # určí proměnnou s typem řetězec (string), a textem "text"
