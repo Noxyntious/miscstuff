@@ -60,3 +60,17 @@ while (c == 1):
     print("C se rovná 1.")
 # Příkaz while bude dokola běžet kód, pokud podmínka je pravdivá. Nikdy nepřestane, dokud program je zavřen tlačítkem X nebo Ctrl+C.
 
+# -- Varování: za tímto textem jsou více pokročilé příkazy. --
+
+# Příkaz try
+
+# Program bez try:
+print(1 / 0) # Program spadne, protože není možné dělit nulou.
+
+# Program s try:
+try:
+    print(1 / 0)
+except:
+    print("Není možné dělit nulou!")
+# Program zkusí kód spusit, a pokud v něm je fatální chyba, program se zachrání a spustí kód pod příkazem except.
+# Důležité: Pokud v kódu pod příkazem except je fatání chyba, program se nezachrání a spadne.
