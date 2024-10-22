@@ -1,6 +1,6 @@
 <!-- Přístupné na https://nijika.dev/sheets.html -->
 
-<!-- Základní layout HTML dokumentu podle Emmetu -->
+<!-- Základní layout HTML dokumentu podle W3C -->
 
 <!-- komentář. text mezi znaky "<! --"" a "-- >"" nebude považován jako kód, ale text. -->
 
@@ -45,6 +45,20 @@ tohle ale není dobrý nápad, protože není možné pak vůbec text stylovat
 <b>Tučný text</b> <!-- <b> - tučný text. všechen text v tagu <b> se vypíše tučně -->
 <i>Kurzíva</i> <!-- Text v kurzívě. všechen text v tagu <i> se vypíše v kurzívě -->
 <u>Podtržený text</u> <!-- Podtržený text. všechen text v tagu <u> bude podtržený -->
+<del>Přeškrtnutý text</del> <!-- Přeškrtnutý text. Všechen text v tagu <del> bude přeškrtnutý -->
+
+<!-- Heading (nadpisy)
+Nadpisy mají velikosti od 1 do 6
+1 - největší
+6 - nejmenší
+-->
+
+<h1>Nadpis 1</h1>
+<h2>Nadpis 2</h2>
+<h3>Nadpis 3</h3>
+<h4>Nadpis 4</h4>
+<h5>Nadpis 5</h5>
+<h6>Nadpis 6</h6>
 
 <!-- Tagy pro interakci s uživatelem -->
 
@@ -53,3 +67,7 @@ tohle ale není dobrý nápad, protože není možné pak vůbec text stylovat
 
 <h1 id="nadpis">Nadpis</h1>
 <a href="#nadpis">Odkaz na nadpis</a> <!-- na jiný element ve stejném dokumentu se odkazuje znakem #, a pak ID elementu -->
+
+<!-- Ostatní tagy -->
+<img src="image.png"></img> <!-- obrázek. podporuje PNG/JPG/GIF/WEBP. src určuje zdroj obrázku. -->
+<script>alert("Alert")</script> <!-- Kód v jazyce JavaScript. -->
